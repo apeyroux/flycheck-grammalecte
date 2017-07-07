@@ -43,7 +43,7 @@
 
 (flycheck-define-checker francais-grammalecte
   "Grammalecte syntax checker for french language `http://www.dicollecte.org/grammalecte/'."
-  :command ("python3" (eval (expand-file-name "./flycheck-grammalecte.py" grammalecte-directory)))
+  :command ("flycheck-grammalecte.py")
   :standard-input t
   :error-patterns
   ((warning line-start "grammaire|" line "|" column "|" (message) line-end)

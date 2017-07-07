@@ -1,4 +1,6 @@
-#!/usr/bin/env python3
+#!/usr/bin/env nix-shell
+#!nix-shell -i python3 -p python35Packages.grammalecte -I nixpkgs=/home/alex/src/nixpkgs/ -Q
+
 """flycheck-grammalecte.py
 
 This script is the glue that link flycheck syntax checker for emacs
