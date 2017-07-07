@@ -1,4 +1,4 @@
-*Fork de https://gitlab.com/geeklhem/flycheck-grammalecte* pour marcher avec Nix
+**Fork de https://gitlab.com/geeklhem/flycheck-grammalecte** pour marcher avec Nix
 
 # Flycheck-grammalecte
 
