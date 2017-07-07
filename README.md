@@ -1,3 +1,5 @@
+*Fork de https://gitlab.com/geeklhem/flycheck-grammalecte* pour marcher avec Nix
+
 # Flycheck-grammalecte
 
 Simple wrapper for the french language checking
